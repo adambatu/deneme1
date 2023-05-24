@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Attach to Chrome",
+        "port": 9222,
+        "request": "attach",
+        "type": "chrome",
+        "webRoot": "${workspaceFolder}"
+      },
+      {
+        "name": "Flutter",
+        "request": "launch",
+        "type": "dart",
+        "flutterMode": "debug",
+        "program": "lib/main.dart",
+        "args": ["--flavor", "development"],
+        "cwd": "E:\\mobilprogram\\flutter_application_1",
+        "flutterRunAdditionalArgs": ["--dart-define=FLUTTER_WEB_USE_SKIA=true"],
+        "appSrcRoot": "E:\\mobilprogram\\flutter_application_1",
+        "apkFile": "build/app/outputs/flutter-apk/app-debug.apk"
+      }
+    ]
+  }
+  
